@@ -22,6 +22,8 @@ public class SpeechToTextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_speech_to_text);
+
+        getSupportActionBar().setTitle("Speech To Text");
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         editText = findViewById(R.id.sptext);

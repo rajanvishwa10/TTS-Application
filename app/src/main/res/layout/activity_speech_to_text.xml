@@ -9,6 +9,9 @@
     <EditText
         android:id="@+id/sptext"
         android:hint="Text..."
+        android:backgroundTint="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
         android:enabled="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

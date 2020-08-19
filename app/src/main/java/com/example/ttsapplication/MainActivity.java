@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("Text To speech");
         button = findViewById(R.id.button);
         textToSpeech = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
